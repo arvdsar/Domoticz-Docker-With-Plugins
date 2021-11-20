@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -yq \
 	 	liblua5.3-dev \
 	 	uthash-dev \
 	 	wget\
-		libffi\
+		libffi-dev\
 	 && \
 	 apt remove --purge --auto-remove cmake
 
